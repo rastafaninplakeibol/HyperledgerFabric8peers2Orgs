@@ -1,0 +1,1 @@
+./network.sh deployCC -ccs $1 -c mychannel -ccn my-chaincode -ccp ../chaincode/mychaincode -ccl typescript -ccep "AND('Org1MSP.peer','Org2MSP.peer')" -cccg ../config/collections_config.json

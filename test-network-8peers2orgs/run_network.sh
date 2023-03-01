@@ -1,0 +1,1 @@
+./network.sh up createChannel -c mychannel -ca && ./network.sh deployCC -c mychannel -ccn my-chaincode -ccp ../chaincode/mychaincode -ccl typescript -ccep "AND('Org1MSP.peer','Org2MSP.peer')" -cccg ../config/collections_config.json  && ./monitordocker.sh
